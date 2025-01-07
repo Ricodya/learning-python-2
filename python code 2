@@ -1,0 +1,47 @@
+# lets see how can we take input from the user 
+# before it lets find out why we need to take input from the user ?
+# we can't assume every value in our code , for making our code useful for ereryone by using their own values  this is the basic idea why we need user input  we see more uses in futhure discussion for now we should start lets write a code for this and understand 
+name = input()
+print(name)
+#the code is working but it doen't display anything for this we need to add something like that we can see our program is start or not for this write a code like that
+
+name = input("enter your name :")
+print(name)
+#here we add some string in our code which help in seeing whether it is working or not 
+# input word with '()' works  together  as input function  which help in taking user data ,we can take any value from the user just need knowlede of our data type and working of input function
+# question time : what is the difference between print function and input function ?if we print anything by the use of print function then why we need to use input function ?
+
+
+# check the type of variable 
+# why we need  to check the type of variable ?
+# as we know that we can take input from the user but if user doen't know how our code work , which type of datatype it accept , it is one of most problem we have to deal if we want to make a code useable for everyone
+
+# for better u derstanding kets see the code once 
+number= input ("enter your name ")
+print(type(number))
+
+# this code first check which type of data we use , then
+
+# convert one datatype to another 
+number =input("enter your number")
+number =int(number)
+print (type(number))
+# here unput function take input from the user and int function convert input into integer datatype and print function print whatever is inside the print function and type function check the type of data type 
+
+
+#keys points that should be  keep in mind while converting one data type to another :
+''' 1. we use input function to take input from the user .
+2. input function always take input as a string format .
+3. to convert string to an integer , we use int() function.
+4. to convert string to an float , we use float() function.
+5. we can only convert numeric string to number .'''
+
+
+
+# here you see that we use most of the line in english for explaining but before staring a line we use hasgtag symbol, this hag symbol known as comment in any programing language  why we use this ? we use this because we doen't want that our compiler (a tranlator which convert our code in machine readable format )reads that lines and show error in our code .
+# and for multiline we use (''') from the starting and ending of the line .
+# second reason why we need to use comment  for defining our code working for futhure reference amd other user .
+# for this we can use single line comment and multi line comment (multiline comment use for when our explaination is need more than one line or need like a paragrph for explainaing that code .
+
+# shortcut for comments : in window use ctrl + / and for mac cmd + /( for single line comment)
+                          # for multiline select all lines and ctrl+/
